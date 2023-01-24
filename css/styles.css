@@ -1,0 +1,93 @@
+body{
+    background-color: antiquewhite;
+    margin:auto;
+    text-align: center;
+}
+
+.main-box{
+    background-color: white;
+    border-radius: 8px;
+    display: inline-block;
+    height:500px;
+    line-height: 2;
+    text-align: left;
+    width:600px;
+    margin-top: 100px;
+    
+}
+
+.product-img{
+    width:300px;
+    height: 500px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 8px 0 0 8px;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    color: black ;
+    line-height:1;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    color: gray ;
+    letter-spacing: 4px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.new-price{
+    font-family: 'Fraunces', serif;
+    font-size: 2.5rem;
+    color: #1d8256;
+    margin: 25px;
+}
+
+.old-price{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:line-through;
+    color: gray;
+    font-size: smaller;
+    position:relative;
+    left: 200px;
+    bottom: 75px
+}
+
+.btn {
+    display: inline;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1d8256;
+    padding: 10px 80px 10px 80px;
+    text-decoration: none;
+    position:relative;
+    left: 320px;
+    bottom: 65px;
+}
+  
+.btn:hover {
+    background: #0e4f17;
+    text-decoration: none;
+}
+
+.product-description{
+    margin-right:25px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
